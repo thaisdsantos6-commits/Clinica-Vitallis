@@ -13,9 +13,8 @@ public class AutenticacaoService {
     //  É usada apenas quando as variáveis de ambiente abaixo não estão definidas:
     //    CLINICA_ADMIN_LOGIN  e  CLINICA_ADMIN_SENHA
     // ====================================================================
-    private static final String DEMO_LOGIN = "admin";
-    private static final String DEMO_SENHA = "123456";
-
+    private static final String DEMO_LOGIN = "Vitallis";
+    private static final String DEMO_SENHA = "Vitallis2026";
     public static final int LOGIN_MAX = 40;
     public static final int SENHA_MAX = 72;
     public static final long INATIVIDADE_MS = 10 * 60 * 1000L;
