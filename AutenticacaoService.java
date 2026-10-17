@@ -35,8 +35,8 @@ public class AutenticacaoService {
     }
 
     public AutenticacaoService() {
-        String login = System.getenv("CLINICA_ADMIN_LOGIN");
-        String senha = System.getenv("CLINICA_ADMIN_SENHA");
+        String login = System.getenv("DEMO_LOGIN");
+        String senha = System.getenv("DEMO_SENHA");
         if (login == null || login.isBlank() || senha == null || senha.isBlank()) {
             login = DEMO_LOGIN;
             senha = DEMO_SENHA;
