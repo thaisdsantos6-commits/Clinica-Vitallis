@@ -37,12 +37,7 @@ public class AutenticacaoService {
     public AutenticacaoService() {
         String login = System.getenv("DEMO_LOGIN");
         String senha = System.getenv("DEMO_SENHA");
-        if (login == null || login.isBlank() || senha == null || senha.isBlank()) {
-            login = DEMO_LOGIN;
-            senha = DEMO_SENHA;
-            System.out.println("AVISO: usando a credencial de DEMONSTRAÇÃO (" + DEMO_LOGIN + "). "
-                    + "Defina CLINICA_ADMIN_LOGIN e CLINICA_ADMIN_SENHA para usar outra.");
-        }
+       
         cadastrarUsuario(login, senha, "ADMIN");
     }
 
